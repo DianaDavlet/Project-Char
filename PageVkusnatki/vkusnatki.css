@@ -1,0 +1,133 @@
+h1, h2,h3,h4,h5,h6 {
+    margin: 0;
+    padding: 0;
+}
+
+
+.vkusnatki {
+    background-color: #f7f5f;
+    height: 100%;  
+    width: 100%;    
+    margin: 0;      
+    padding: 0;     
+    box-sizing: border-box;
+  }
+
+.headVkusnatki {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.title-vkusnatki {
+    font-family: 'Times New Roman', 'Times', serif;
+    text-align: center;
+    font-size: 35px;
+}
+
+.contain-vkus {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    align-items: center;
+    gap: 20px;
+}
+
+.address {
+    height: 300px;
+    width: 500px;
+    background-color: #ded9d7;
+    border-radius: 12px;
+    box-shadow: 1px 5px 10px gray;
+}
+
+.donat {
+    height: 300px;
+    width: 500px;
+    background-color: #ded9d7;
+    border-radius: 12px;
+    box-shadow: 1px 5px 10px gray;
+}
+
+.send-vkus {
+    font-family: 'Times New Roman', 'Times', serif;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.send-points {
+    font-family: 'Georgia', 'serif', 'cursive';
+    font-weight: 100;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.send-donat {
+    font-family: 'Times New Roman', 'Times', serif;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.donat-points {
+    font-family: 'Georgia', 'serif', 'cursive';
+    font-weight: 100;
+    text-align: center;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+.wish-char {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.text-wish {
+    font-family: 'Times New Roman', 'Times', serif;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 25px;
+}
+
+.pic-wish {
+    display: flex;
+    justify-content: center;
+}
+
+.round-char {
+    border-radius: 1000px;
+    width: 400px;
+    height: 400px;
+    box-shadow: 1px 5px 10px gray;
+    margin-top: 15px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center; 
+}
+
+.container-footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text-footer {
+    font-family: 'Times New Roman', 'Times', serif;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.link {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #4CAF50;
+}
